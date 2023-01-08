@@ -33,5 +33,5 @@ An older, less focused and much more limited version of this codebase can be fou
 
 
 ## Credits
-Model file found in `/models` come from the MPRA-DragoNN publication:
+Model files found in `/models` come from the MPRA-DragoNN publication:
 `Movva R, Greenside P, Marinov GK, Nair S, Shrikumar A, Kundaje A (2019). Deciphering regulatory DNA sequences and noncoding genetic variants using neural network models of massively parallel reporter assays. PLoS ONE 14(6): e0218073.  [https://doi.org/10.1371/journal.pone.0218073](https://doi.org/10.1371/journal.pone.0218073)`
