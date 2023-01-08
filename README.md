@@ -15,8 +15,11 @@ Load in STARR-seq and/or ATAC omics datasets. Pre-process into machine-learning 
 1. **Unzip data file (stored on GDrive, contact for access) into `/data/raw`**. 
 
 2. **Set up environment and initialize notebook**.
+
 	1.1. If using conda and Jupyter, set up environment according to `versions.txt` and ignore the first cells in notebook that mount GDrive.
+
 	1.2. If using GDrive and Colab, environment should already work with codebase. If not, consult `versions.txt`.
+	
 
 3.  **Run Code**.  Open `driver.ipynb`. Run cells to process and save raw datasets then train and evaluate models. 
 
@@ -30,5 +33,5 @@ An older, less focused and much more limited version of this codebase can be fou
 
 
 ## Credits
-Model found in `/models` come from the MPRA-DragoNN publication:
+Model file found in `/models` come from the MPRA-DragoNN publication:
 `Movva R, Greenside P, Marinov GK, Nair S, Shrikumar A, Kundaje A (2019). Deciphering regulatory DNA sequences and noncoding genetic variants using neural network models of massively parallel reporter assays. PLoS ONE 14(6): e0218073.  [https://doi.org/10.1371/journal.pone.0218073](https://doi.org/10.1371/journal.pone.0218073)`
