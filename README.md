@@ -25,7 +25,11 @@ Load in STARR-seq and/or ATAC omics datasets. Pre-process into machine-learning 
 
 
 ## Notes
-Change settings in `driver.ipynb` to change output datasets or model parameters. More information about available models can also be found here.
+Change settings in `driver.ipynb` to change output datasets or model parameters. More information about available models can also be found there.
+
+Two pre-trained models from this repo can be found in `/models`. More information about each can be found in their respective `settings.txt` files.
+* `/cnn_20230211-200556_out1_lr0.002_bs512_sh0_0000` contains a convolutional model trained to predict Arabidopsis STARR-seq activity from sequences.
+* `/ffnn_20230211-202247_nuc111_lay64-24-0-9_lr0.002_bs512` contains a feed-forward neural network model trained to predict ATAC accessibility for nine tissues simultaneously from nucleotide frequency features. 
 
 If you want to use GDrive and Colab, [Colab Pro](https://colab.research.google.com/signup) is required. This is because many datasets can't be processed and many models won't train with less than the 25GB RAM that Colab Pro allots. If you run a script and see that it seemingly terminated with `^C`, try again with `Runtime > Change Runtime Type > GPU Class > Premium`. Colab Pro+ is not necessary but wouldn't hurt.
 
