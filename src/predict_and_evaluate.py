@@ -35,7 +35,7 @@ def fetch_args():
     parser = argparse.ArgumentParser(description="Evaluate frequency-based or sequence-based model on specified dataset")
 
     parser.add_argument('-da', '--data_input_path', type=str, default="data/processed/ntabacum_35s_starr.csv", help='Path to training data')
-    parser.add_argument('-ep', '--experiment_path', type=str, default="experiments/athal_genome_ffnn/ffnn_20230105-214237_nuc100_lay24-0-0-1_lr0.002_bs512", help='Path to folder with model and settings')
+    parser.add_argument('-ep', '--experiment_path', type=str, default="models/cnn_20230211-200556_out1_lr0.002_bs512_sh0_0000", help='Path to folder with model and settings')
     parser.add_argument('-sp', '--save_path', type=str, default="evaluation/", help='Path to folder to create save folder in')
 
     args = parser.parse_args()
